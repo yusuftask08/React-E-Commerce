@@ -12,12 +12,12 @@ function Navbar() {
                 <div className="logo">
                     <Link to="/">eCommerce</Link>
                 </div>
+                <ul className={styles.menu}>
+                    <li>
+                        <Link to="/"> Products </Link>
+                    </li>
+                </ul>
             </div>
-            <ul className={styles.menu}>
-                <li>
-                    <Link to="/"> Products </Link>
-                </li>
-            </ul>
             <div className="right">
                 <Link to="/sign-in">
                     <Button colorScheme='teal' size='sm' style={{ marginRight: "5px" }}>Register </Button>

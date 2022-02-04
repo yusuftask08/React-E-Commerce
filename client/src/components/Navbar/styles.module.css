@@ -4,7 +4,7 @@
     justify-content: space-between;
     border-bottom: solid 1px #e2e8f0;
     line-height: 2px;
-    align-items:center;
+    align-items: center;
 }
 
 .nav .left {
@@ -21,10 +21,9 @@ li {
 }
 
 .nav .left .menu li a {
-    color: bisque;
+    color: rgba(0, 0, 0, 0.603);
     text-decoration: none !important;
     font-size: 1.1rem;
-    padding: 3px 16px;
     display: block;
     font-size: 16px;
 }
