@@ -7,7 +7,6 @@ function Card() {
         <Box borderWidth="1px" borderRadius="lg" overflow="hidden" p="3">
             <Link to="#/">
                 <Image src="http://picsum.photos/400/300" alt="product" />
-
                 <Box p='6'>
                     <Box d="plex" alignItems='baseline'>
                         12/12/2021
